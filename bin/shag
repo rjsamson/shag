@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'shag'
+
+USAGE = <<-TEXT
+
+Usage: shag new [APP_NAME]
+
+TEXT
+
+if (ARGV[0] == 'new') && (ARGV.length == 2)
+  gen = Shag::Generator.new(ARGV[1])
+  gen.run
+elsif (ARGV[0] == '-v') || (ARGV[0] == '--version')
+  puts "shag (Sinatra Heroku App Generator) version #{Shag::VERSION}"
+else
+  puts USAGE
+end
