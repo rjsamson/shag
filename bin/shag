@@ -3,6 +3,7 @@
 require 'shag'
 
 USAGE = <<-TEXT
+shag (Sinatra Heroku App Generator) version #{Shag::VERSION}
 
 Usage: shag new [APP_NAME]
 

@@ -13,6 +13,9 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/rjsamson/shag"
 
   gem.add_runtime_dependency "thor"
+  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "fakefs"
+  gem.add_development_dependency "stub_shell"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
