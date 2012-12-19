@@ -9,7 +9,7 @@ describe "Generator" do
   end
 
   describe "private methods" do
-    include FakeFS::SpecHelpers
+
     describe "#bundle" do
       it "runs bundle install" do
         stub_shell do
