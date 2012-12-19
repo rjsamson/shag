@@ -12,7 +12,6 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{A stupidly simple, single purpose CLI for generating a scaffold for Sinatra apps on heroku.}
   gem.homepage      = "https://github.com/rjsamson/shag"
 
-  gem.add_runtime_dependency "thor"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "fakefs"
   gem.add_development_dependency "stub_shell"
