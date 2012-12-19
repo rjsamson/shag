@@ -1,24 +1,20 @@
 # Shag
 
-TODO: Write a gem description
+SHAG - Sinatra Heroku App Generator
+
+Shag is a stupidly simple, single purpose CLI for generating a scaffold for Sinatra apps on heroku. `shag new [APP_NAME]` creates a new directory for APP_NAME along with an appropriate Procfile, Gemfile and bare Sinatra application.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'shag'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install from the command line as:
 
     $ gem install shag
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ shag new [APP_NAME]
+
+Generates a shell project for APP_NAME.
 
 ## Contributing
 
